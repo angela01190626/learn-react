@@ -6,8 +6,10 @@ import styles from '@/styles/Home.module.css'
 // import Gallery from './components/gallery'
 // import Profile from './qcomps/profile_mistake'
 // import MyComp from './qcomps/firstcomp'
-import Bio from './qcomps/bios';
-import TodoList from './qcomps/todos';
+// import Bio from './qcomps/bios';
+// import TodoList from './qcomps/todos';
+import Gallery from './qcomps/gallery_props';
+import PackingList from './components/props_item';
 
 export default function Home() {
   return (
@@ -17,7 +19,9 @@ export default function Home() {
         {/* <Profile /> */}
         {/* <MyComp /> */}
         {/* <Bio /> */}
-        <TodoList />
+        {/* <TodoList /> */}
+        {/* <Gallery /> */}
+        <PackingList />
     </div>
   )
 }
