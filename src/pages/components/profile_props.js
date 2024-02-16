@@ -1,3 +1,4 @@
+// one parameter
 function Avatar({person, size=100}) {
   return (
     <img
