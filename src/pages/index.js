@@ -2,8 +2,13 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+// import List from './components/artistsArr'
 // import Counter from './components/queueUpdates'
-import RequestTracker from './qcomps/shoppingCart'
+// import RequestTracker from './qcomps/shoppingCart'
+// import Form from './components/updObjects'
+// import Scoreboard from './qcomps/updObjectsForm'
+import List from './qcomps/artistsRemoveArr'
+import BucketList from './qcomps/arrObj'
 // import Gallery from './qcomps/state'
 // import PersonData from './components/stateObj'
 // import Form from './qcomps/stuckForm'
@@ -45,7 +50,12 @@ export default function Home() {
         {/* <Counter /> */}
         {/* <Form /> */}
         {/* <Counter /> */}
-        <RequestTracker />
+        {/* <RequestTracker /> */}
+        {/* <Form /> */}
+        {/* <Scoreboard /> */}
+        {/* <List /> */}
+        {/* <List /> */}
+        <BucketList />
     </div>
   )
 }
